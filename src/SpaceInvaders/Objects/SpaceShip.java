@@ -30,9 +30,10 @@ public class SpaceShip extends SpaceObject{
 	private int points;
 	/** Array list with all shots fired */
 	private ArrayList<Shot> shots;
-	
+	/** Has protection against enemies/objects */
 	private boolean protection;
 	
+	/** Sprite used to show space ship protection */
 	public SpriteSheet protectionSprite;
 	private int protectionIniTime;
     protected int Ydimension;

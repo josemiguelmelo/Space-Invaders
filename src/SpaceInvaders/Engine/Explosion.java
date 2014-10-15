@@ -24,8 +24,6 @@ public class Explosion implements Drawable{
 	private int spritesheetPosition;
 	private boolean enabled;
 	
-	
-	
 	private int lastTime = (int)System.currentTimeMillis();
 	
 	/**
